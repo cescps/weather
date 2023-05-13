@@ -35,6 +35,10 @@ body {
   border-radius: 0.6em;
   box-shadow: 0 1.8em 3.7em var(--shadow);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .shape {
   position: absolute;
@@ -60,7 +64,17 @@ body {
   display: grid;
   grid-template-columns: 9fr 3fr;
   gap: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
 }
+
+ .search-box {
+  /* Add new CSS rules */
+  margin-right: 1em;
+}
+
 .search-container input,
 .search-container button {
   outline: none;
@@ -145,4 +159,5 @@ body {
   .wrapper {
     font-size: 14px;
   }
+  
 }
